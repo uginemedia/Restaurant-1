@@ -18,3 +18,38 @@ window.addEventListener('scroll', () => {
     }
 
 });
+
+
+// ScrollReveal Animation
+
+//Reveal From Bottom
+ScrollReveal().reveal('.scroll-bottom', {
+    duration: 3000,
+    origin: "bottom",
+    distance: "50px",
+    reset: true
+});
+
+//Reveal From Left
+ScrollReveal().reveal('.scroll-left', {
+    duration: 3000,
+    origin: "left",
+    distance: "100px",
+    reset: true
+});
+
+//Zoom In
+ScrollReveal().reveal('.zoom-in', {
+    scale: 0.85,
+    duration: 3000,
+    reset: true
+});
+
+//Staggered
+ScrollReveal().reveal('.staggered > div', {
+  origin: 'bottom',
+  distance: '100px',
+  duration: 3000,
+  interval: 200,
+  reset: true
+});

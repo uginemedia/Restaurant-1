@@ -148,7 +148,7 @@ header.scrolled {
     text-transform: capitalize;
     max-width: 800px;
     width: 100%;
-    font-weight: 900; 
+    font-weight: 700; 
     line-height: 1.4;
 }
 
@@ -1053,3 +1053,8 @@ footer {
         margin-top: 0;
     }
 }
+
+/* ScrollReveal Animation */
+/* .scroll-x {
+    opacity: 0;
+} */
